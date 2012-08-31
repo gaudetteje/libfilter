@@ -33,7 +33,9 @@ switch mode(1)
     case 'l'
         Hn = H0;
     case 'h'
-        Hn = -H0 * (f./f0).^2;
+        Hn = H0 * (f./f0).^2;
+    case 'b'
+        Hn = H0 * (f./f0);
     otherwise
         error('Unknown mode used')
 end

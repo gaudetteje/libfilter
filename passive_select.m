@@ -18,6 +18,8 @@ function [res,err] = passive_select(N,M)
 %
 % Note:  Components are typically rounded to the nearest 2 or 3 significant
 %     digits, depending upon the tolerance.
+%
+% See also: http://www.venkel.com/PDFs/EAIThinFilms.pdf
 
 %  Author:  Jason Gaudette
 %  Email:   jason.e.gaudette@navy.mil
