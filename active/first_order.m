@@ -29,7 +29,7 @@ switch mode(1)
 end
 
 % calculate denominator
-Hd = 1 + j*f/f0;
+Hd = 1 + 1i*f/f0;
 
 % combine transfer function
 H = Hn ./ Hd;

@@ -6,12 +6,12 @@
 
 
 % set basic parameters
-f0 = 10e3;
-Q = 10;
+f0 = 9950;
+Q = 5;
 A = 1;
 
 % choose capacitor and resistor
-C = 15e-9;
+C = 16e-9;
 R4 = 1e3;
 
 % compute remaining values
