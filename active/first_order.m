@@ -8,6 +8,10 @@ function H = first_order(f,f0,varargin)
 % H = FIRST_ORDER(F,F0,Q,H0) applies linear gain, H0
 % H = FIRST_ORDER(F,F0,Q,H0,'hpf') will calculate the high pass version
 
+%  Author:  Jason Gaudette
+%  Email:   jason.e.gaudette@navy.mil
+%  Date:    09/03/12
+
 mode = 'l';
 
 switch nargin
