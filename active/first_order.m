@@ -4,9 +4,7 @@ function H = first_order(f,f0,varargin)
 %
 % H = FIRST_ORDER(F,F0) calculates a maximally flat (Q=.7071) lowpass
 % filter response with cutoff, F0, unity gain over frequency points in F
-% H = FIRST_ORDER(F,F0,Q) uses specified peakedness, Q
-% H = FIRST_ORDER(F,F0,Q,H0) applies linear gain, H0
-% H = FIRST_ORDER(F,F0,Q,H0,'hpf') will calculate the high pass version
+% H = FIRST_ORDER(F,F0,'hpf') will calculate the high pass version
 
 %  Author:  Jason Gaudette
 %  Email:   jason.e.gaudette@navy.mil

@@ -19,7 +19,7 @@ function [H,f0] = seriesrc(f,P1,P2,varargin)
 %  Specifying 'high' as a parameter will swap R's for C's to yield the
 %  appropriate filter.  The parameters are entered in the same order ,i.e.:
 %
-%  H = SALLENKEY(F,C1,R2,'high')
+%  H = SERIESRC(F,C1,R2,'high')
 %
 %
 
