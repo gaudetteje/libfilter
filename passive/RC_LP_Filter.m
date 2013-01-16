@@ -20,7 +20,7 @@ end
 subplot(211), semilogx(w/(2*pi), magDB)
 grid on
 xlabel('Frequency (Hz)'), ylabel('Gain dB')
-title('Bode Plot for RC High-Pass Filter')
+title('Bode Plot for RC Low-Pass Filter')
 
 subplot(212), semilogx(w/(2*pi), phase2)
 grid on
