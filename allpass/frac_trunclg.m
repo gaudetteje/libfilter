@@ -10,7 +10,7 @@ function hd = frac_trunclg(N,M,D)
 % 
 % [1] V. Valimaki and A. Haghparast, "Fractional Delay Filter Design
 %     Based on Truncated Lagrange Interpolation," IEEE Signal Processing
-%     Letters, vol. 14, no. 11, pp. 816?819, Nov. 2007.
+%     Letters, vol. 14, no. 11, pp. 816-819, Nov. 2007.
 
 hd = zeros(N,1);
 K1 = (M-N)/2;
