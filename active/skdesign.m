@@ -30,10 +30,6 @@ function filt = skdesign(A, f0, Q, seed, varargin)
 %
 % See also mfbdesign, sallenkey, and multifeedback.
 
-%  Author:  Jason Gaudette
-%  Email:   jason.e.gaudette@navy.mil
-%  Date:    8/20/08
-
 switch nargin
     case 4
         method = 'l';

@@ -6,10 +6,6 @@ function H = first_order(f,f0,varargin)
 % filter response with cutoff, F0, unity gain over frequency points in F
 % H = FIRST_ORDER(F,F0,'hpf') will calculate the high pass version
 
-%  Author:  Jason Gaudette
-%  Email:   jason.e.gaudette@navy.mil
-%  Date:    09/03/12
-
 mode = 'l';
 
 switch nargin

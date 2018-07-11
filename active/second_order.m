@@ -8,10 +8,6 @@ function H = second_order(f,f0,varargin)
 % H = SECOND_ORDER(F,F0,Q,H0) applies linear gain, H0
 % H = SECOND_ORDER(F,F0,Q,H0,'hpf') will calculate the high pass version
 
-%  Author:  Jason Gaudette
-%  Email:   jason.e.gaudette@navy.mil
-%  Date:    09/03/12
-
 % default values
 Q = 1/sqrt(2);
 H0 = 1;

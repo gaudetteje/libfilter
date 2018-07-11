@@ -21,10 +21,6 @@ function [res,err] = passive_select(M,varargin)
 %
 % See also: http://www.venkel.com/PDFs/EAIThinFilms.pdf
 
-%  Author:  Jason Gaudette
-%  Email:   jason.e.gaudette@navy.mil
-%  Date:    4/11/12
-
 % precompute 20%, 10%, 5% values (minor difference in series rounding)
 EIA6 = [1.0 1.5 2.2 3.3 4.7 6.8];
 EIA12 = sort([EIA6 1.2 1.8 2.7 3.9 5.6 8.2]);

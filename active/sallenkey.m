@@ -36,10 +36,6 @@ function [H,f0,Q] = sallenkey(f,P1,P2,P3,P4,Rb,Ra,varargin)
 %
 %  See also multifeedback, mfbdesign, and skdesign
 
-%  Author:  Jason Gaudette
-%  Email:   jason.e.gaudette@navy.mil
-%  Date:    8/15/08
-
 switch nargin
     case 7
         method = 'l';

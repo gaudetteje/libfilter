@@ -23,10 +23,6 @@ function [H,f0] = seriesrc(f,P1,P2,varargin)
 %
 %
 
-%  Author:  Jason Gaudette
-%  Email:   jason.e.gaudette@navy.mil
-%  Date:    8/19/08
-
 switch nargin
     case 3
         method = 'l';

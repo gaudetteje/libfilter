@@ -15,10 +15,6 @@ function filt = biquad_design(A, f0, Q, C, R, varargin)
 %
 % See also mfbdesign, sallenkey, and multifeedback.
 
-%  Author:  Jason Gaudette
-%  Email:   jason.e.gaudette@navy.mil
-%  Date:    11/9/12
-
 switch nargin
     case 5
         method = 'l';
